@@ -1,0 +1,64 @@
+{
+	"id": "Switch-1-Plus",
+	"branch": "master",
+	"name": {
+		"en": "1 Touch Panel Switch"
+	},
+	"zwave": {
+		"manufacturerId": [338],
+		"productTypeId": [3,1280],
+		"productId": [2,3,17],
+		"learnmode": {
+			"image": "/drivers/Switch-1-Plus/assets/learnmode.svg",
+			"instruction": {
+				"en": "1. Set the controller into INCLUSION mode\n2.On and off any key on the panel 3 times."
+			}
+		},
+		"unlearnmode": {
+			"image": "/drivers/Switch-1-Plus/assets/learnmode.svg",
+			"instruction": {
+				"en": "1. Set the controller into EXCLUSION mode\n2.On and off any key on the panel 3 times."
+			}
+		},
+		"associationGroups": [
+			1
+		],
+		"associationGroupsOptions": {
+			"1": {
+				"hint": {
+					"en": "Lifeline group"
+				}
+			},
+			"2": {
+				"hint": {
+					"en": "Switch 1"
+				}
+			}
+		},
+		"multiChannelNodes": {
+			"1": {
+				"class": "socket",
+				"capabilities": [
+					"onoff"
+				],
+				"icon": "/drivers/Switch-1-Plus/assets/icon.svg",
+				"name": {
+					"en": "Switch 1"
+				},
+				"settings": []
+			}
+		}
+	},
+	"class": "socket",
+	"capabilities": [
+		"onoff"
+	],
+	"icon": "/drivers/Switch-1-Plus/assets/icon.svg",
+	"images": {
+		"large": "/drivers/Switch-1-Plus/assets/images/large.jpg",
+		"small": "/drivers/Switch-1-Plus/assets/images/small.jpg"
+	},
+	"settings": [
+
+			]
+		}

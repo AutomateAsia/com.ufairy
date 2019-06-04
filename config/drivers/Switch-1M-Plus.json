@@ -1,0 +1,53 @@
+{
+	"id": "Switch-1M-Plus",
+	"branch": "master",
+	"name": {
+		"en": "1 Touch Panel Metal"
+	},
+	"zwave": {
+		"manufacturerId": [301],
+		"productTypeId": [1280],
+		"productId": [3],
+		"learnmode": {
+			"image": "/drivers/Switch-1M-Plus/assets/learnmode.svg",
+			"instruction": {
+				"en": "1. Set the controller into INCLUSION mode\n2.On and off any key on the panel 3 times."
+			}
+		},
+		"unlearnmode": {
+			"image": "/drivers/Switch-1M-Plus/assets/learnmode.svg",
+			"instruction": {
+				"en": "1. Set the controller into EXCLUSION mode\n2.On and off any key on the panel 3 times."
+			}
+		},
+		"associationGroups": [
+			1
+		],
+		"associationGroupsOptions": {
+			"1": {
+				"hint": {
+					"en": "Lifeline group"
+				}
+			},
+			"2": {
+				"hint": {
+					"en": "Switch 1",
+					"nl": "schakelaar 1"
+				}
+			}
+		}
+	},
+	"class": "socket",
+	"capabilities": [
+		"onoff"
+	],
+	"icon": "/drivers/Switch-1M-Plus/assets/icon.svg",
+	"images": {
+		"large": "/drivers/Switch-1M-Plus/assets/images/large.jpg",
+		"small": "/drivers/Switch-1M-Plus/assets/images/small.jpg"
+	},
+	"settings": [
+
+
+	  ]
+}
